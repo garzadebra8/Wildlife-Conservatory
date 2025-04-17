@@ -3,6 +3,10 @@ body {
   margin: 0;
   padding: 0;
 }
+#page_container{
+	margin:0 auto;
+	width: 1000px;
+}
 h2{color:black;
 font-size: 30px;
 }
@@ -26,12 +30,17 @@ header {
 }
 h1{text-align:left;
 	 padding: 10px 20px;
-	font-size:25px;
+	font-size:40px;
+	
+	
 }
 .logo {
   height: 150px;
 	width:190px;
 	display: block;
+}
+nav{
+	background-color: #3b5323;
 }
 nav ul {
   list-style: none;
@@ -39,7 +48,8 @@ nav ul {
   gap: 40px;
 	text-align:center;
 	font-size: 17px;
-	margin: 100px 20px; /* Moves the textbox 50px down and 20px from the left */
+
+	
 }
 
 nav ul li a {
