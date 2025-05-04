@@ -17,7 +17,7 @@ h4{ padding-left: 10px 1000px;
 }
 p{color:black;
 font-size:20px;
-padding: 35px;
+padding: 15px 10px;
 }
 header {
   background-color: #3b5323;
@@ -28,16 +28,34 @@ header {
   padding: 10px 20px;
 	
 }
+
+ .text-block {
+            width: 96%;
+            margin: auto;
+            padding: 20px;
+            background-color:gold;
+            border-radius: 10px;
+            font-family: Arial, sans-serif;
+        }
+
+@media screen and (max-width: 800px) {
+  heading, nav,footer {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+	@media only screen and (max-width : 800px ) and ( orientation : portrait ){/* portrait phones */}
+
 h1{text-align:left;
-	 padding: 10px 20px;
-	font-size:40px;
-	
+	 padding: 10px 170px;
+	font-size:38px;
+	float:right;
 	
 }
 .logo {
   height: 150px;
 	width:190px;
-	display: block;
+	padding: 25px;
 }
 nav{
 	background-color: #3b5323;
@@ -155,5 +173,4 @@ footer {
 footer .social a {
   color: white;
   text-decoration: none;
-  margin: 0 10px;
-}
+  margin
