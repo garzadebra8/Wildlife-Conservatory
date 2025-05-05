@@ -9,9 +9,11 @@ body {
 }
 h2{color:black;
 font-size: 30px;
+	padding: 30px;
 }
 h4{ padding-left: 10px 1000px;
-	
+	align-self: auto;
+font-size:40px;
 	
 	
 }
@@ -38,6 +40,7 @@ header {
             font-family: Arial, sans-serif;
         }
 
+
 @media screen and (max-width: 800px) {
   heading, nav,footer {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
@@ -57,9 +60,7 @@ h1{text-align:left;
 	width:190px;
 	padding: 25px;
 }
-nav{
-	background-color: #3b5323;
-}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -78,18 +79,6 @@ nav ul li a {
 	
 }
 
-ul{} 
-
-h4{align-self: auto;
-font-size:40px;
-
-}
-h2{
-	padding: 30px;
-	
-	
-}
-
 
 .slideshow-container {
   position: relative;
@@ -100,11 +89,12 @@ h2{
 
 .slide {
   display: none;
+	
 }
 
 .fade {
   animation-name: fade;
-  animation-duration: 3.0s;
+  animation-duration: 5.0s;
 }
 
 @keyframes fade {
@@ -121,19 +111,6 @@ h2{
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.dot.active {
-  background-color: #717171;
-}
 
 .articles {
   display: flex;
@@ -150,14 +127,14 @@ article {
 }
 
 #donate {
-  background-color:gold;
+  background-color:fff;
   text-align: center;
   padding: 30px 20px;
 }
 
 button{
 	height:40px;
-	background-color: red;
+	background-color:#3b5323;
 	color:white;
 	font-family: Arial, sans-serif;
 	font-size: 15px;
@@ -171,7 +148,8 @@ button{
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100;
+            height: 100
+				;
         }
         .form-container {
             background: white;
@@ -192,16 +170,15 @@ button{
         }
         button {
             margin-top: 15px;
-            padding: 10px;
-            width: 100%;
-            background-color: #5cb85c;
+            padding: 5px;
+            width: 85%;
             color: white;
             border: none;
             border-radius: 5px;
             cursor: pointer;
         }
         button:hover {
-            background-color: #4cae4c;
+            background-color: red;
         }
 
 
