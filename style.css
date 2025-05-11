@@ -28,8 +28,11 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+	position: fixed;
 	
 }
+
+
 
  .text-block {
             width: 96%;
@@ -67,8 +70,11 @@ nav ul {
   gap: 40px;
 	text-align:center;
 	font-size: 17px;
-
-	
+background-color:gold;
+	backface-visibility: visible;
+	border-radius:100px;
+	position: fixed;
+	width: 90%
 }
 
 nav ul li a {
@@ -76,6 +82,7 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
 	
+	 height: 100%; 
 	
 }
 
@@ -131,6 +138,8 @@ article {
   text-align: center;
   padding: 30px 20px;
 }
+
+
 
 button{
 	height:40px;
@@ -200,7 +209,7 @@ footer {
   padding: 20px 10px;
 }
 
-footer .social a {
+footer a {
   color: white;
   text-decoration: none;
 	}
