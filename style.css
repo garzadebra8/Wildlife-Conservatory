@@ -140,7 +140,13 @@ button{
 	font-size: 15px;
 	
 }
+.founder{display: flex;
+      justify-content: center;
+      align-items: center;
+	  text-align: center;
+	  flex-direction: column;}
 
+.foundercap{font-size: 20px;}
 
  body {
             font-family: Arial, sans-serif;
