@@ -1,8 +1,4 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+
 #page_container{
 	margin:0 auto;
 	width: 1000px;
@@ -71,10 +67,11 @@ nav ul {
   gap: 40px;
 	text-align:center;
 	font-size: 17px;
-background-color:gold;
+background-color:white;
 	backface-visibility: visible;
 	 z-index: 1000;
 	position: fixed;
+	width:90%;
 
 	
 	
@@ -164,6 +161,8 @@ button{
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             display: flex;
+	   		margin: 0;
+  			padding: 0;
             justify-content: center;
             align-items: center;
             height: 100;
