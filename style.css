@@ -150,7 +150,7 @@ button{
 	color:white;
 	font-family: Arial, sans-serif;
 	font-size: 15px;
-	
+	align-items: center;
 }
 .founder{display: flex;
       justify-content: center;
