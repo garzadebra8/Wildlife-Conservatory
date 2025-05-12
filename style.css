@@ -29,7 +29,7 @@ header {
   align-items: center;
   padding: 10px 20px;
 	position: fixed;
-	
+	 z-index: 1000;
 }
 
 
@@ -72,20 +72,23 @@ nav ul {
 	font-size: 17px;
 background-color:gold;
 	backface-visibility: visible;
-	border-radius:100px;
+	 z-index: 1000;
 	position: fixed;
-	width: 90%
+	width: 82.5%
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-	
-	 height: 100%; 
+	align-items: center;
 	
 }
 
+.navhead{ width:80%;
+	
+	
+}
 
 .slideshow-container {
   position: relative;
@@ -207,9 +210,11 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 10px;
+	
 }
 
 footer a {
   color: white;
   text-decoration: none;
+	
 	}
